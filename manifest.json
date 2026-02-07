@@ -1,0 +1,5 @@
+{
+  "name": "agitationinalz-eds",
+  "version": "1.0.0",
+  "blocks": ["hero", "cards", "columns", "resource-grid", "safety-disclaimer"]
+}
