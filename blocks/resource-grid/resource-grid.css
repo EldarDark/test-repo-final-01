@@ -1,0 +1,17 @@
+.resource-grid-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .resource-grid-items { grid-template-columns: 1fr 1fr; }
+}
+
+.resource-grid a.pdf-link::after {
+  content: ' (PDF)';
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.resource-grid a:hover { text-decoration: underline; }
