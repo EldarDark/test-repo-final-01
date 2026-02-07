@@ -1,0 +1,11 @@
+.safety-disclaimer {
+  background-color: #f4f7f9;
+  padding: 2rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  border-top: 1px solid #d1d1d1;
+}
+
+.safety-disclaimer h1, .safety-disclaimer h2 { font-size: 1.1rem; margin-top: 0; }
+.safety-disclaimer ul { list-style: none; padding: 0; }
+.safety-disclaimer li { margin-bottom: 0.5rem; }
