@@ -1,0 +1,38 @@
+{
+  "definitions": [
+    {
+      "title": "Custom Cards",
+      "id": "custom-cards",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Custom Cards",
+              "model": "custom-cards"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "custom-cards",
+      "fields": [
+        {
+          "component": "multifield",
+          "name": "items",
+          "label": "Card Items",
+          "multi": true,
+          "fields": [
+            { "component": "reference", "name": "image", "label": "Image/Icon" },
+            { "component": "text", "name": "heading", "label": "Heading" },
+            { "component": "richtext", "name": "body", "label": "Body Text" },
+            { "component": "reference", "name": "link", "label": "Link" }
+          ]
+        }
+      ]
+    }
+  ]
+}
